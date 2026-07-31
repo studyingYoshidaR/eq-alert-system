@@ -1,0 +1,32 @@
+{
+    "type": "jma_eew",
+    "Title": "緊急地震速報（予報）",
+    "CodeType": "Ｍ、最大予測震度及び主要動到達予測時刻の緊急地震速報",
+    "Issue": {"Source": "東京", "Status": "通常"},
+    "EventID": "20260404193656",
+    "Serial": 1,
+    "AnnouncedTime": "2026/04/04 19:38:00",
+    "OriginTime": "2026/04/04 19:37:43",
+    "Hypocenter": "北海道東方沖",
+    "Latitude": 43.0,
+    "Longitude": 147.0,
+    "Magunitude": 4.0,
+    "Depth": 10,
+    "MaxIntensity": "2",
+    "WarnArea": [
+        {
+            "Chiiki": "根室地方中南部",
+            "Shindo1": "2",
+            "Shindo2": "1",
+            "Time": "//////",
+            "Type": "予報",
+            "Arrive": "未到達"
+        }
+    ],
+    "isSea": true,
+    "isTraining": false,
+    "isAssumption": false,
+    "isWarn": false,
+    "isFinal": false,
+    "isCancel": false
+}

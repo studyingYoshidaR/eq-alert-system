@@ -1,0 +1,54 @@
+[
+    {
+      "scenario_name": "Case 1: NIED Early Detection (South West)",
+      "description": "南西方面で震度2程度の揺れを検知した想定",
+      "wait_seconds": 10,
+      "data": {
+        "source": "NIED",
+        "type": "REALTIME",
+        "event_id": "sim_001",
+        "hypocenter_name": "南西",
+        "max_intensity": "2.4",
+        "predicted_home_scale": 0
+      }
+    },
+    {
+      "scenario_name": "Case 2: EEW Forecast (Weak)",
+      "description": "千葉県北西部で地震、自宅は震度2（通知レベル）の想定",
+      "wait_seconds": 15,
+      "data": {
+        "source": "WOLFX",
+        "type": "FORECAST",
+        "event_id": "sim_002",
+        "hypocenter_name": "千葉県北西部",
+        "max_intensity": "3",
+        "predicted_home_scale": 20
+      }
+    },
+    {
+      "scenario_name": "Case 3: EEW Warning (Strong - Interrupt)",
+      "description": "東京湾で強い地震、自宅は震度4（警報レベル）。Case 2の再生中に割り込む想定",
+      "wait_seconds": 20,
+      "data": {
+        "source": "WOLFX",
+        "type": "WARNING",
+        "event_id": "sim_003",
+        "hypocenter_name": "東京湾",
+        "max_intensity": "5-",
+        "predicted_home_scale": 40
+      }
+    },
+    {
+      "scenario_name": "Case 4: Cancel Report",
+      "description": "先ほどの警報がキャンセルされた想定",
+      "wait_seconds": 5,
+      "data": {
+        "source": "WOLFX",
+        "type": "CANCEL",
+        "event_id": "sim_003",
+        "hypocenter_name": "-",
+        "max_intensity": "0",
+        "predicted_home_scale": 0
+      }
+    }
+  ]

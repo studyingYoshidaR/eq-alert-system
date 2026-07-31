@@ -1,0 +1,34 @@
+{
+    "Title": "緊急地震速報（予報）",
+    "OriginDateTime": "2026-08-20T03:10:00+09:00",
+    "ReportDateTime": "2026-08-20T03:10:45+09:00",
+    "EventID": "20260820031000",
+    "Serial": 12,
+    "Hypocenter": {
+        "Code": 280,
+        "Name": "宮城県沖",
+        "Coordinate": [142.0, 38.2],
+        "Depth": "40km",
+        "Description": "北緯38.2度 東経142.0度 深さ約40km"
+    },
+    "Intensity": "4",
+    "Magnitude": "7.1",
+    "Flag": {
+        "is_final": true,
+        "is_cancel": false,
+        "is_training": false
+    },
+    "Forecast": [
+        {
+            "Code": 230,
+            "Name": "宮城県中部",
+            "Intensity": {"From": "4", "To": "4", "Description": "最大震度4程度"}
+        },
+        {
+            "Code": 240,
+            "Name": "福島県中通り",
+            "Intensity": {"From": "3", "To": "3", "Description": "最大震度3程度"}
+        }
+    ],
+    "Text": ""
+}

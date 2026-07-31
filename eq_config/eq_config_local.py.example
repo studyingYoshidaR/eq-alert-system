@@ -1,0 +1,11 @@
+# eq_config/eq_config_local.py.example
+# このファイルを eq_config_local.py にコピーし、各自の環境に合わせて値を書き換えてください。
+# eq_config_local.py 自体は .gitignore 対象（個人情報のためコミットしない）。
+SSD_MOUNT_POINT = "/mnt/eq_ssd"
+HOME_LAT = 35.681236
+HOME_LON = 139.767125
+HOME_REGION_NAME = "(未設定)"
+HOME_GROUND_CORRECTION = 1.0
+MASTER_VOLUME = 100
+COUNTDOWN_VOLUME_BOOST = 5
+PLAY_SIMULATION_END_AUDIO = True

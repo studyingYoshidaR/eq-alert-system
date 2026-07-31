@@ -1,0 +1,50 @@
+# audio
+*.mp3
+*.wav
+*.m4a
+*.aac
+
+# pic
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+
+# video
+*.mp4
+
+# nied_history
+monitor_images/
+
+# log 
+*.log
+eq_log/
+
+# test
+eq_test/test_monitor_images/
+eq_test/test_eq_log/
+scratch/
+temp_test_img/
+check_status.py
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+eq_test/*/*.png
+
+# eq_app4win: ソース・ビルド設定のみ追跡し、成果物と巨大バイナリは除外
+eq_app4win/dist/
+eq_app4win/build/
+eq_app4win/build_log.txt
+# 同梱ffmpeg (約140MB, GitHubの100MB上限超) は配置手順のmdのみ追跡
+eq_app4win/ffmpeg/*
+!eq_app4win/ffmpeg/PUT_FFMPEG_HERE.md
+# テストデータ (ルート eq_test と同様に除外)
+eq_app4win/eq_test/test_eq_log/
+eq_app4win/eq_test/test_monitor_images/
+
+# personal/secret config (contains home coordinates, API tokens)
+eq_config/eq_config_local.py
+eq_src/token.json
+eq_src_backup/**/token.json

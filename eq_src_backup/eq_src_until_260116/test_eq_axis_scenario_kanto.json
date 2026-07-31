@@ -1,0 +1,34 @@
+{
+    "Title": "緊急地震速報（警報）",
+    "OriginDateTime": "2026-05-10T15:20:00+09:00",
+    "ReportDateTime": "2026-05-10T15:20:15+09:00",
+    "EventID": "20260510152000",
+    "Serial": 5,
+    "Hypocenter": {
+        "Code": 441,
+        "Name": "千葉県北西部",
+        "Coordinate": [140.1, 35.7],
+        "Depth": "70km",
+        "Description": "北緯35.7度 東経140.1度 深さ約70km"
+    },
+    "Intensity": "5+",
+    "Magnitude": "6.2",
+    "Flag": {
+        "is_final": false,
+        "is_cancel": false,
+        "is_training": false
+    },
+    "Forecast": [
+        {
+            "Code": 441,
+            "Name": "千葉県北西部",
+            "Intensity": {"From": "5+", "To": "5+", "Description": "最大震度5強程度"}
+        },
+        {
+            "Code": 350,
+            "Name": "東京都２３区",
+            "Intensity": {"From": "5-", "To": "5-", "Description": "最大震度5弱程度"}
+        }
+    ],
+    "Text": ""
+}
